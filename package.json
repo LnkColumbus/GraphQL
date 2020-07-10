@@ -1,0 +1,32 @@
+{
+  "name": "curso_graphql",
+  "version": "1.0.0",
+  "description": "Curso de GraphQL de platzi",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -e js,graphql index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LnkColumbus/GraphQL.git"
+  },
+  "keywords": [
+    "GraphQL"
+  ],
+  "author": "Marlon Véliz <marlonveliz.nero19@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LnkColumbus/GraphQL/issues"
+  },
+  "homepage": "https://github.com/LnkColumbus/GraphQL#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
